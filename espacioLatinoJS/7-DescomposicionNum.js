@@ -10,7 +10,7 @@ const descomponerNumero = numero =>{
     (numero < 10)
         ? console.log("unidad: ", numero)
         : (numero < 100)
-            ? console.log(`Decena: ${decena}, Unidad: ${unidad}`)
+            ? console.log(`Decena: ${decena}, Unidad: ${unidad}`)  
             :(numero < 1000)
                 ? console.log(`Centena: ${centena} Decena: ${decena}, Unidad: ${unidad}`)
                 :(numero < 10000)
@@ -20,4 +20,4 @@ const descomponerNumero = numero =>{
 
 descomponerNumero(1456);
 
- //arreglar.
+//realiza mal el calculo
