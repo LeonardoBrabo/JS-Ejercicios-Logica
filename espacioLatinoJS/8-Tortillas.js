@@ -11,4 +11,14 @@ const tortillasPorPersona = (cantPersonas= undefined) => {
    
 
 }
-tortillasPorPersona(5);
+tortillasPorPersona(5); 
+
+//otra solución:
+/*
+var litros =prompt("Litros consumidos");
+var km = prompt(Kilómetros recorridos);
+ litros = parseFloat(litros);
+ km = parseFloat(km);
+var consumo = litros/km;
+alert("Consumo "+ consumo+" litros/km");
+*/
